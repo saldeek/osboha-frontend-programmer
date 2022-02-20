@@ -1,5 +1,6 @@
 <template>
-  <!--  This component will contain the list of countries-->
+  <!--  This component will contain the list of countries
+  In the future this might be a view-->
   <div id="services">
     <div class="content-box-md">
       <div class="container">
@@ -17,7 +18,11 @@
         <div class="row">
           <div class="service-boxes">
             <!--list of countries-->
-            <Country v-for="country in countries" :key="country.id" :country="country"/>
+            <Country
+              v-for="country in countries"
+              :key="country.id"
+              :country="country"
+            />
           </div>
         </div>
       </div>
@@ -49,12 +54,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-#services{
-  position: relative;
-}
-
-.vertical-heading {
-  margin-bottom: 60px;
-}
-</style>

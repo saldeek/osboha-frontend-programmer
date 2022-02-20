@@ -1,9 +1,6 @@
 <template>
-  <router-link
-    class="country-link"
-    :to="{ name: 'CountryDetails'}"
-  >
-    <div class="col-md-4 col-sm-6 col-xs-12">
+  <router-link class="country-link" :to="{ name: 'CountryDetails' }">
+    <div class=".col-xs-6">
       <div class="service-box text-center">
         <i class="fa fa-laptop i-blue" aria-hidden="true"></i>
         <h3>{{ country.name }}</h3>

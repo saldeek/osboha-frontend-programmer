@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Circe Rounded";
   font-display: block;
-  src: url(../fonts/CirceRounded.woff2) format("woff2");
+  /*src: url(../fonts/CirceRounded.woff2) format("woff2");*/
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Gill Sans";
   font-display: block;
-  src: url(../fonts/GillSans.woff2) format("woff2");
+  /*src: url(../fonts/GillSans.woff2) format("woff2");*/
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -247,11 +247,11 @@ ul.social-list li a {
   overflow: hidden;
 }
 #home .overlay-1 {
-  background: url(../image/bg/overlay_1.webp) center no-repeat;
+  /*background: url(../image/bg/overlay_1.webp) center no-repeat;*/
   background-size: cover;
 }
 #home .overlay-2 {
-  background: url(../image/bg/overlay_2.webp) center no-repeat;
+  /*background: url(../image/bg/overlay_2.webp) center no-repeat;*/
   background-size: cover;
 }
 #round {
@@ -714,19 +714,19 @@ ul.social-list li a {
   filter: saturate(1.5) hue-rotate(345deg);
 }
 .service-tab .image-tab-02 {
-  background: url(../image/services/img_tab_02.webp) center no-repeat;
+  /*background: url(../image/services/img_tab_02.webp) center no-repeat;*/
   background-size: cover;
   -webkit-filter: saturate(1.5) hue-rotate(360deg);
   filter: saturate(1.5) hue-rotate(360deg);
 }
 .service-tab .image-tab-03 {
-  background: url(../image/services/img_tab_03.webp) center no-repeat;
+  /*background: url(../image/services/img_tab_03.webp) center no-repeat;*/
   background-size: cover;
   -webkit-filter: saturate(1.5) hue-rotate(345deg);
   filter: saturate(1.5) hue-rotate(345deg);
 }
 .service-tab .image-tab-04 {
-  background: url(../image/services/img_tab_04.webp) center no-repeat;
+  /*background: url(../image/services/img_tab_04.webp) center no-repeat;*/
   background-size: cover;
   -webkit-filter: saturate(1.5) hue-rotate(360deg);
   filter: saturate(1.5) hue-rotate(360deg);
@@ -972,7 +972,7 @@ ul.social-list li a {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../image/bg/stats_bg.webp) center fixed;
+  /*background: url(../image/bg/stats_bg.webp) center fixed;*/
   background-size: 100% auto;
   z-index: -1;
 }
